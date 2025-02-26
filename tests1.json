@@ -1,0 +1,362 @@
+[
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What is the supreme law of the land?",
+            "rus": "Что является высшим законом страны?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Right of Free Speech",
+                    "rus": "Право на свободу слова"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Constitution",
+                    "rus": "Конституция"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Bill of Rights",
+                    "rus": "Билль о правах"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What does the Constitution do?",
+            "rus": "Что делает Конституция?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Sets up the government, defines the government, protects basic rights of Americans",
+                    "rus": "Устанавливает правительство, определяет его устройство, защищает основные права американцев"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Sets up our independence",
+                    "rus": "Определяет нашу независимость"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Defines who can be an American",
+                    "rus": "Определяет, кто может быть американцем"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+            "rus": "Идея самоуправления выражена в первых трех словах Конституции. Что это за слова?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "We the People",
+                    "rus": "Мы, народ"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "In God We Trust",
+                    "rus": "На Бога уповаем"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "United We Stand",
+                    "rus": "Вместе мы сильны"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What is an amendment?",
+            "rus": "Что такое поправка?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "A change to the Declaration of Independence",
+                    "rus": "Изменение в Декларации независимости"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "A change to the Bill of Rights",
+                    "rus": "Изменение в Билле о правах"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "A change (to the Constitution), an addition (to the Constitution)",
+                    "rus": "Изменение (в Конституции), дополнение (к Конституции)"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What do we call the first ten amendments to the Constitution?",
+            "rus": "Как называются первые десять поправок к Конституции?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Bill of Freedom",
+                    "rus": "Билль о свободе"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Bill of Rights",
+                    "rus": "Билль о правах"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Emancipation Declaration",
+                    "rus": "Декларация об освобождении"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What is one right or freedom from the First Amendment?",
+            "rus": "Назовите одно из прав или свобод, гарантированных Первой поправкой."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Taxes",
+                    "rus": "Налоги"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Speech, religion, assembly, press, petition the government",
+                    "rus": "Свобода слова, Свобода вероисповедания, Право на собрания, Свобода прессы, Право обращаться к правительству"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Independence",
+                    "rus": "Независимость"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "How many amendments does the Constitution have?",
+            "rus": "Сколько поправок в Конституции?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Twenty-seven (27)",
+                    "rus": "27"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Twenty (20)",
+                    "rus": "20"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Twenty-five (25)",
+                    "rus": "25"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What did the Declaration of Independence do?",
+            "rus": "Что сделала Декларация независимости?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Announced our new government",
+                    "rus": "Объявила о новом правительстве"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Announced that we could declare war",
+                    "rus": "Объявила, что мы можем начать войну"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Announced our independence (from Great Britain), declared our independence (from Great Britain), said that the United States is free (from Great Britain)",
+                    "rus": "Объявила о нашей независимости (от Великобритании), Заявила, что Соединенные Штаты свободны (от Великобритании)"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What are two rights in the Declaration of Independence?",
+            "rus": "Назовите два права, закрепленных в Декларации независимости."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Life, Liberty, Pursuit of Happiness",
+                    "rus": "Право на жизнь, Право на свободу, Стремление к счастью"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Vote",
+                    "rus": "Право на голосование"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Citizenship",
+                    "rus": "Гражданство"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What is freedom of religion?",
+            "rus": "Что означает свобода вероисповедания?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "All Americans must be Christian",
+                    "rus": "Все американцы должны быть христианами"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "You can practice any religion, or not practice a religion.",
+                    "rus": "Вы можете исповедовать любую религию или не исповедовать никакую."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "You cannot practice any religion",
+                    "rus": "Вы не можете исповедовать никакую религию"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What is the economic system in the United States?",
+            "rus": "Какова экономическая система в Соединенных Штатах?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Communism",
+                    "rus": "Коммунизм"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Socialism",
+                    "rus": "Социализм"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Capitalist economy, Market economy",
+                    "rus": "Капиталистическая экономика, рыночная экономика"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What is the “rule of law”?",
+            "rus": "Что такое «верховенство закона»?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Amendments to the Constitution",
+                    "rus": "Поправки к Конституции"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Constitution",
+                    "rus": "Конституция"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Everyone must follow the law, Leaders must obey the law, Government must obey the law, No one is above the law.",
+                    "rus": "Каждый должен соблюдать закон, Лидеры должны подчиняться закону, Правительство должно подчиняться закону, Никто не выше закона."
+                }
+            }
+        ]
+    }
+]

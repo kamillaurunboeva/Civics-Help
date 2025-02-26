@@ -1,0 +1,1053 @@
+[
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Name one branch or part of the government.",
+            "rus": "Назовите одну из ветвей или частей правительства."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Military",
+                    "rus": "Военные"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Congress, legislative, President, executive, the courts, judicial",
+                    "rus": "Конгресс, Законодательная власть, Президент, Исполнительная власть, Суды, Судебная власть"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Police",
+                    "rus": "Полиция"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What prevents one branch of government from becoming too powerful?",
+            "rus": "Что препятствует одной из ветвей правительства стать слишком сильной?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "checks and balances, separation of powers",
+                    "rus": "система \"сдержек и противовесов\", разделение властей"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The President",
+                    "rus": "Президент"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Supreme Court",
+                    "rus": "Верховный суд"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Who is in charge of the Executive Branch?",
+            "rus": "Кто возглавляет Исполнительную власть?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Supreme Justice",
+                    "rus": "Верховный судья"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Senate",
+                    "rus": "Сенат"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The President",
+                    "rus": "Президент"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Who makes federal laws?",
+            "rus": "Кто создает федеральные законы?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Congress, Senate and House (of Representatives), (U.S. or national) legislature",
+                    "rus": "Конгресс, Сенат и Палата (представителей), (законодательный орган США или страны)"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Cabinet",
+                    "rus": "Кабинет министров"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Supreme Court",
+                    "rus": "Верховный суд"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What are the two parts of the U.S. Congress?",
+            "rus": "Из каких двух частей состоит Конгресс США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The President and the Senate",
+                    "rus": "Президент и Сенат"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Cabinet and the Supreme Court",
+                    "rus": "Кабинет министров и Верховный суд"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "the Senate and House (of Representatives)",
+                    "rus": "Сенат и Палата представителей"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "How many U.S. Senators are there?",
+            "rus": "Сколько в США сенаторов?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Ninety-five (95)",
+                    "rus": "95"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "One hundred (100)",
+                    "rus": "100"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "One hundred and ten (110)",
+                    "rus": "110"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "For how many years do we elect a U.S. Senator?",
+            "rus": "На сколько лет избирается сенатор США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Six (6)",
+                    "rus": "6"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Four (4)",
+                    "rus": "4"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Five (5)",
+                    "rus": "5"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Who is one of your state’s U.S. Senators now?",
+            "rus": "Кто сейчас является одним из сенаторов США от вашего штата?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "The House of Representatives has how many voting members?",
+            "rus": "Сколько голосующих членов в Палате представителей?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Fifty(50)",
+                    "rus": "50"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "One hundred and fifty (150)",
+                    "rus": "150"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Four hundred thirty-five (435)",
+                    "rus": "435"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "We elect a U.S. Representative for how many years?",
+            "rus": "На сколько лет мы выбираем представителя в Конгресс США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "four(4)",
+                    "rus": "4"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Two (2)",
+                    "rus": "2"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Three(3)",
+                    "rus": "3"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Name your U.S. Representative.",
+            "rus": "Назовите вашего представителя в Конгрессе США."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Who does a U.S. Senator represent?",
+            "rus": "Кого представляет сенатор США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "All homeowners in the state ",
+                    "rus": "Всех домовладельцев в штате"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "All the people of their country",
+                    "rus": "Всех жителей своей страны"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "All people of the state",
+                    "rus": "Всех жителей штата"
+                }
+            }
+        ]
+    },
+    
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Why do some states have more Representatives than other states?",
+            "rus": "Почему некоторые штаты имеют больше представителей, чем другие?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "(because) they were part of the original colonies",
+                    "rus": "(потому что) они были частью первоначальных колоний"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "(because) they are more important",
+                    "rus": "(потому что) они важнее"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "(because of) the state’s population, (because) they have more people, (because) some states have more people",
+                    "rus": "(из-за) численности населения штата, (потому что) там проживает больше людей, (потому что) в некоторых штатах больше людей"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "We elect a President for how many years?",
+            "rus": "На сколько лет избирается президент?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Four (4)",
+                    "rus": "4"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Seven(7)",
+                    "rus": "7"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Two(2)",
+                    "rus": "2"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "In what month do we vote for President?",
+            "rus": "В каком месяце проходят выборы президента?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "January",
+                    "rus": "Январь"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "November",
+                    "rus": "Ноябрь"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "October",
+                    "rus": "Октябрь"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is the name of the President of the United States now?",
+            "rus": "Назовите имя президента Соединённых Штатов в настоящее время."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Donald John Trump ",
+                    "rus": "Дональд Джон Трамп"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Joe Biden",
+                    "rus": "Джо Байден"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Kamala D.Haris",
+                    "rus": "Камала Д. Харис"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What is the name of the Vice President of the United States now?",
+            "rus": "Назовите имя президента Соединённых Штатов в настоящее время."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Dick Cheney",
+                    "rus": "Дик Чейни"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "J.D. Vance",
+                    "rus": "Дж. Д. Ванс"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Kamala D.Haris",
+                    "rus": "Камала Д. Харис"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "If the President can no longer serve, who becomes President?",
+            "rus": "Если президент больше не может исполнять свои обязанности, кто становится президентом?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Chief Justice ",
+                    "rus": "Председатель Верховного суда"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Vice President",
+                    "rus": "Вице-призедент"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "There will be a new election",
+                    "rus": "Будут новые выборы"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "If both the President and the Vice President can no longer serve, who becomes President?",
+            "rus": "Если и президент, и вице-президент теряют способность руководить страной, кто становится президентом?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Speaker of the House",
+                    "rus": "Спикер Палаты представителей"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Chief Justice ",
+                    "rus": "Председатель Верховного суда"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The most senior Senator",
+                    "rus": "Старший сенатор"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Who is the Commander in Chief of the military?",
+            "rus": "Кто является Верховным Главнокомандующим Вооружённых Сил?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Congress",
+                    "rus": "Конгресс"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The President",
+                    "rus": "Президент"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Vice President",
+                    "rus": "Вице призедент"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Who signs bills to become laws?",
+            "rus": "Кто подписывает законопроекты, чтобы они стали законами?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Supreme Court",
+                    "rus": "Верховный суд"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The President",
+                    "rus": "Президент"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Cabinet",
+                    "rus": "Кабинет министров"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Who vetoes bills?",
+            "rus": "Кто накладывает вето на законопроекты?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Supreme Justice",
+                    "rus": "Верховный судья"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The President",
+                    "rus": "Президент"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Cabinet",
+                    "rus": "Кабинет министров"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What does the President’s Cabinet do?",
+            "rus": "Чем занимается Кабинет министров президента?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Advises the President",
+                    "rus": "Дает рекомендации президенту"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Reports to Congress",
+                    "rus": "Отчитывается перед Конгрессом."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Make laws",
+                    "rus": "Издаёт законы"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What are two Cabinet-level positions?",
+            "rus": "Назовите две должности уровня Кабинета министров."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Secretary of Agriculture, Secretary of Commerce, Secretary of Defense, Secretary of Education, Secretary of Energy, Secretary of Health and Human Services, Secretary of Homeland Security, Secretary of Housing and Urban Development, Secretary of the Interior, Secretary of Labor, Secretary of State, Secretary of Transportation, Secretary of the Treasury, Secretary of Veterans Affairs, Attorney General, Vice President",
+                    "rus": "Министр сельского хозяйства, Министр торговли, Министр обороны, Министр образования, Министр энергетики, Министр здравоохранения и социальных служб, Министр внутренней безопасности, Министр жилищного строительства и городского развития, Министр внутренних дел, Министр труда, Государственный секретарь, Министр транспорта, Министр финансов, Министр по делам ветеранов, Генеральный прокурор, Вице-президент."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The President",
+                    "rus": "Президент"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Chief Justice ",
+                    "rus": "Председатель Верховного суда"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What does the judicial branch do?",
+            "rus": "Что делает судебная ветвь власти?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Vetoes bills",
+                    "rus": "Накладывает вето на законопроекты"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Explains new taxes",
+                    "rus": "Объясняет новые налоги"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Reviews laws, Explains laws, Resolves disputes (disagreements), Decides if a law goes against the Constitution",
+                    "rus": "Рассматривает законы, объясняет законы, разрешает споры (разногласия), определяет, противоречит ли закон Конституции."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What is the highest court in the United States?",
+            "rus": "Какой суд является самым главным в Соединённых Штатах?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Federal Court ",
+                    "rus": "Федеральный суд"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Supreme Court",
+                    "rus": "Верховный суд"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "A Congressional hearing",
+                    "rus": "Слушания в Конгрессе"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "How many justices are on the Supreme Court?",
+            "rus": "Сколько судей в Верховном суде?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Five (5)",
+                    "rus": "5"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Twelve (12)",
+                    "rus": "12"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Nine (9)",
+                    "rus": "9"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Who is the Chief Justice of the United States now?",
+            "rus": "Кто сейчас занимает пост Председателя Верховного суда Соединённых Штатов?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "John G. Roberts, Jr.",
+                    "rus": "Джон Г. Робертс, мл."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Sonia Sotomayor",
+                    "rus": "Соня Сотомайор"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Clarence Thomas",
+                    "rus": "Кларенс Томас"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+            "rus": "Согласно нашей Конституции, некоторые полномочия принадлежат федеральному правительству. Назовите одно из полномочий федерального правительства."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "To regulate hospitals",
+                    "rus": "Регулировать работу больниц"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "To control the senate",
+                    "rus": "Право контролировать Сенат"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "To print money, To declare war, To create an army, To make treaties",
+                    "rus": "Печатать деньги, объявлять войну, создавать армию, заключать договоры."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+            "rus": "Согласно нашей Конституции, некоторые полномочия принадлежат штатам. Назовите одно из полномочий штатов."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Provide schooling and education, Provide protection (police), Provide safety (fire departments), Give a driver’s license, Approve zoning and land use ",
+                    "rus": "Право обеспечивать школьное образование, Обеспечивать защиту (полиция), Обеспечивать противопожарную безопасность, Выдавать водительские права, Утверждать землепользование и зонирование"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Provide U.S. Citizenship",
+                    "rus": "Предоставлять гражданство США."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Print Money",
+                    "rus": "Печатать деньги."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Who is the Governor of your state now? ",
+            "rus": "Кто сейчас является губернатором вашего штата?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is the capital of your state?",
+            "rus": "Какой город является столицей вашего штата?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "",
+                    "rus": ""
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What are the two major political parties in the United States?",
+            "rus": "Назовите две крупнейшие политические партии в США."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Liberty Party and Green Party",
+                    "rus": "Партия Свободы и Партия Зеленых"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Democratic and Republican",
+                    "rus": "Демократическая и Республиканская"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "National Party and Independence Party",
+                    "rus": "Национальная партия и Партия независимости"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is the political party of the President now?",
+            "rus": "К какой политической партии принадлежит президент в данный момент?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Democratic (Party)",
+                    "rus": "Демократическая (партия)"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Governmental (Party)",
+                    "rus": "Правительственная (партия)"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Republican (Party)",
+                    "rus": "Республиканская (партия)"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What is the name of the Speaker of the House of Representatives now?",
+            "rus": "Назовите имя спикера Палаты представителей в данный момент."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Kevin McCarthy",
+                    "rus": "Кевин Маккарти"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Samuel Alito",
+                    "rus": "Сэмюэль Алито"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Mike Johnson",
+                    "rus": "Майк Джонсон"
+                }
+            }
+        ]
+    }
+]
