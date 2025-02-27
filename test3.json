@@ -1,0 +1,304 @@
+[
+    {
+        "answer": 2,
+        "question": {
+            "eng": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+            "rus": "Существуют четыре поправки к Конституции о том, кто имеет право голосовать. Опишите одну из них."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "People over 21 (can vote).",
+                    "rus": "Лица старше 21 года могут голосовать."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Citizens eighteen (18) and older (can vote). You don’t have to pay a poll tax to vote. Any citizen can vote (women and men can vote). A male citizen of any race can vote.",
+                    "rus": "Граждане 18 лет и старше могут голосовать. Вам не нужно платить налог на голосование. Любой гражданин может голосовать (женщины и мужчины могут голосовать). Граждане мужского пола любой расы могут голосовать."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Only property owners are allowed to vote.",
+                    "rus": "Голосовать могут только владельцы недвижимости."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is one responsibility that is only for United States citizens?",
+            "rus": "Назовите одно из прав, которыми обладают только граждане Соединённых Штатов."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Serve on a jury, vote in a federal election.",
+                    "rus": "Участвовать в суде присяжных, голосовать на федеральных выборах."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Pay federal taxes.",
+                    "rus": "Платить федеральные налоги."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Enlist in the army.",
+                    "rus": "Записаться в армию."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Name one right only for United States citizens.",
+            "rus": "Назовите одно из прав, доступное только гражданам Соединённых Штатов."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Vote in a federal election, run for federal office",
+                    "rus": "Голосовать на федеральных выборах, выдвигаться на федеральные должности"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Enlist in the army",
+                    "rus": "Записаться в армию"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Work for the federal government",
+                    "rus": "Работать на федеральное правительство"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What are two rights of everyone living in the United States?",
+            "rus": "Какие два права есть у всех жителей США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The right to bear arms and the right to own property.",
+                    "rus": "Право на ношение оружия и право на владение собственностью."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Freedom of expression, Freedom of speech, Freedom of assembly, Freedom to petition the government, Freedom of religion, The right to bear arms.",
+                    "rus": "Право на свободу выражения мнений, Свободу слова, Свободу собраний, Право обращаться к правительству, Свободу вероисповедания, Право на ношение оружия."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The right to own a private island and the right to control the weather.",
+                    "rus": "Право владеть частным островом и право управлять погодой."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What do we show loyalty to when we say the Pledge of Allegiance?",
+            "rus": "Кому мы присягаем на верность, когда произносим клятву верности?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Declaration of Independence.",
+                    "rus": "Декларации независимости."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The President.",
+                    "rus": "Президенту."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The United States and the flag.",
+                    "rus": "Соединённым Штатам и флагу."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is one promise you make when you become a United States citizen?",
+            "rus": "Назовите одно из обещаний, которое вы даёте при получении гражданства США."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Give up loyalty to other countries, defend the Constitution and laws of the United States, obey U.S. laws, serve in the U.S. military (if needed), serve the nation (if needed), be loyal to the United States.",
+                    "rus": "Отказаться от верности другим странам, Защищать Конституцию и законы США, Подчиняться законам США, Служить в армии США (при необходимости), Работать на благо страны (при необходимости),Быть верным США."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "To have the Star-Spangled Banner as your morning alarm tone.",
+                    "rus": "Использовать гимн США в качестве утреннего будильника."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "To never leave the country.",
+                    "rus": "Никогда не покидать страну."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "How old do citizens have to be to vote for President?",
+            "rus": "С какого возраста граждане могут голосовать на выборах президента?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Between eighteen (18) and sixty-five (65).",
+                    "rus": "От 18 до 65 лет."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Exactly eighteen (18).",
+                    "rus": "Ровно 18 лет."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Eighteen (18) and older.",
+                    "rus": "18 лет и старше."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What are two ways that Americans can participate in their democracy?",
+            "rus": "Назовите два способа участия американцев в демократической системе."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Purchase a house, join a political party",
+                    "rus": "Купить дом, вступить в политическую партию"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Vote, Join a political party, Help with a campaign, Join a civic group, join a community group, Give an elected official your opinion on an issue, Call Senators and Representatives, Publicly support or oppose an issue or policy, Run for office, Write to a newspaper",
+                    "rus": "Голосовать, Вступить в политическую партию, Помогать в избирательной кампании, Вступить в гражданскую группу, Присоединиться к общественной организации, Выражать своё мнение избранным должностным лицам по вопросам, Звонить сенаторам и представителям, Публично поддерживать или выступать против какого-либо вопроса или политики, Баллотироваться на должность, Писать в газеты."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Get a US Passport, Pay sales tax",
+                    "rus": "Получить паспорт США, Платить налог с продаж."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "When is the last day you can send in federal income tax forms?",
+            "rus": "Какой последний день для подачи федеральных налоговых деклараций?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "April 15.",
+                    "rus": "15 апреля."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "March 15.",
+                    "rus": "15 марта."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "April 1.",
+                    "rus": "1 апреля."
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "When must all men register for the Selective Service?",
+            "rus": "Когда все мужчины должны встать на воинский учёт?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "After completing high school.",
+                    "rus": "После окончания школы."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "At age eighteen (18), between eighteen (18) and twenty-six (26).",
+                    "rus": "В возрасте 18 лет, в период с 18 до 26 лет."
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Between eighteen (18) and sixty-five (65).",
+                    "rus": "В возрасте от 18 до 65 лет."
+                }
+            }
+        ]
+    }
+]
+
+    

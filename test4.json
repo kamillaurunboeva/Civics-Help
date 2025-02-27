@@ -1,0 +1,392 @@
+[
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is one reason colonists came to America?",
+            "rus": "Назовите одну из причин прибытия поселенцев в Америку."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Freedom, Political liberty, Religious freedom, Economic opportunity, To practice their religion, To escape persecution",
+                    "rus": "Свобода, Политическая свобода, Свобода вероисповедания, Экономические возможности, Исполнение религиозных обрядов, Спасение от преследований"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "To escape slavery",
+                    "rus": "Побег из рабства"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "More land",
+                    "rus": "Больше земли"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Who lived in America before the Europeans arrived?",
+            "rus": "Кто жил в Америке до прибытия европейцев?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Cave Men",
+                    "rus": "Пещерные люди"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Mexicans",
+                    "rus": "Мексиканцы"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "American Indians, Native Americans",
+                    "rus": "Американские индейцы, Коренные американцы"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What group of people was taken to America and sold as slaves?",
+            "rus": "Какая группа людей была ввезена в Америку и продана в рабство?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Canadians",
+                    "rus": "Канадцы"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Africans, people from Africa",
+                    "rus": "Африканцы, Выходцы из Африки"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "People from Europe",
+                    "rus": "Люди из Европы"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Why did the colonists fight the British?",
+            "rus": "Почему поселенцы воевали против Британии?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Because of high taxes (taxation without representation), Because the British army stayed in their houses (boarding, quartering), Because they didn’t have self-government",
+                    "rus": "Из-за высоких налогов (налогообложение без представительства), Потому что британская армия проживала в их домах (поселение, квартирование), Потому что у них не было самоуправления"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Because of religious persecution",
+                    "rus": "Из-за религиозных преследований"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Because the British invaded America",
+                    "rus": "Потому что англичане вторглись в Америку"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Who wrote the Declaration of Independence?",
+            "rus": "Кто написал Декларацию независимости?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "(Franklin) Roosevelt",
+                    "rus": "(Франклин) Рузвельт"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "(Thomas) Jefferson",
+                    "rus": "(Томас) Джефферсон"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "(George) Washington",
+                    "rus": "(Джордж) Вашингтон"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "When was the Declaration of Independence adopted?",
+            "rus": "Когда была принята Декларация независимости?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "July 4, 1777",
+                    "rus": "4 июля 1777 года"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "July 4, 1775",
+                    "rus": "4 июля 1775 года"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "July 4, 1776",
+                    "rus": "4 июля 1776 года"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "There were 13 original states. Name three.",
+            "rus": "Было 13 первоначальных штатов. Назовите три из них."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Florida",
+                    "rus": "Флорида"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "New Hampshire, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina, Georgia",
+                    "rus": "Нью-Гэмпшир, Массачусетс, Род-Айленд, Коннектикут, Нью-Йорк, Нью-Джерси, Пенсильвания, Делавэр, Мэриленд, Вирджиния, Северная Каролина, Южная Каролина, Джорджия"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Nevada",
+                    "rus": "Невада"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What happened at the Constitutional Convention?",
+            "rus": "Что произошло на Конституционной конвенции?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Constitution was written, the Founding Fathers wrote the Constitution",
+                    "rus": "Была написана Конституция, отцы-основатели написали Конституцию."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "George Washington was elected President",
+                    "rus": "Джордж Вашингтон был избран президентом"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Founding Fathers were named",
+                    "rus": "Назвали отцов-основателей"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "When was the Constitution written?",
+            "rus": "Когда была написана Конституция?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "1878",
+                    "rus": "1878"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "1787",
+                    "rus": "1787"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "1776",
+                    "rus": "1776"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+            "rus": "Федералистские статьи поддерживали принятие Конституции США. Назовите одного из авторов."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "(John) Roberts",
+                    "rus": "(Джон) Робертс"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "(Andrew) Jackson",
+                    "rus": "(Эндрю) Джексон"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "(James) Madison, (Alexander) Hamilton, (John) Jay, Publius",
+                    "rus": "(Джеймс) Мэдисон, (Александр) Гамильтон, (Джон) Джей, Публиус"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is one thing Benjamin Franklin is famous for?",
+            "rus": "Чем знаменит Бенджамин Франклин? Назовите одну из причин."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "U.S. diplomat, Oldest member of the Constitutional Convention, First Postmaster General of the United States, Writer of “Poor Richard’s Almanac”, Started the first free libraries",
+                    "rus": "Американский дипломат, Старейший член Конституционной конвенции, Первый генеральный почтмейстер США, Автор \"Альманаха бедного Ричарда\", Основатель первых бесплатных библиотек"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Invented the stamp",
+                    "rus": "Изобрел марку"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Oldest member of the Government",
+                    "rus": "Самый старший член правительства"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Who is the “Father of Our Country”?",
+            "rus": "Кого называют \"Отцом нашей страны\"?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "(George) Washington",
+                    "rus": "(Джордж) Вашингтон"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "(Thomas) Jefferson",
+                    "rus": "(Томас) Джефферсон"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "(Benjamin) Franklin",
+                    "rus": "(Бенджамин) Франклин"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Who was the first President?",
+            "rus": "Кто был первым президентом США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "(Franklin) Roosevelt",
+                    "rus": "(Франклин) Рузвельт"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "(George) Washington",
+                    "rus": "(Джордж) Вашингтон"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "(Thomas) Jefferson",
+                    "rus": "(Томас) Джефферсон"
+                }
+            }
+        ]
+    }
+]
