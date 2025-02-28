@@ -1,0 +1,212 @@
+[
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What territory did the United States buy from France in 1803?",
+            "rus": "Какую территорию США купили у Франции в 1803 году?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "New Mexico",
+                    "rus": "Нью-Мексико"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Florida",
+                    "rus": "Флорида"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Louisiana Territory, Louisiana",
+                    "rus": "Территория Луизианы, Луизиана"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Name one war fought by the United States in the 1800s.",
+            "rus": "Назовите одну войну, в которой участвовали США в 1800-х годах."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "War of 1812",
+                    "rus": "Война 1812 года"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Korean War",
+                    "rus": "Корейская война"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "War of 1812, Mexican-American War, Civil War, Spanish-American War",
+                    "rus": "Война 1812 года, Мексиканско-американская война, Гражданская война, Испано-американская война"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Name the U.S. war between the North and the South.",
+            "rus": "Как называется война между Севером и Югом США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The Civil War, the War between the States",
+                    "rus": "Гражданская война, Война между штатами"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Mexican American War",
+                    "rus": "Мексикано-американская война"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The War of 1812",
+                    "rus": "Война 1812 года"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Name one problem that led to the Civil War.",
+            "rus": "Назовите одну из проблем, которая привела к Гражданской войне."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "The South did not like the Constitution",
+                    "rus": "Югу не нравилась Конституция"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Slavery, Economic Reasons, States’ Rights",
+                    "rus": "Рабство, Экономические причины, Права штатов"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The North did not like the Constitution",
+                    "rus": "Северу не нравилась Конституция"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What was one important thing that Abraham Lincoln did?",
+            "rus": "Назовите один из важных поступков, который совершил Авраам Линкольн."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Established local elections",
+                    "rus": "Учредил местные выборы"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Allowed women to vote",
+                    "rus": "Разрешил женщинам голосовать"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Freed the slaves (Emancipation Proclamation), Saved (or preserved) the Union, Led the United States during the Civil War",
+                    "rus": "Освободил рабов (Прокламация об эмансипации), Спас (или сохранил) Союз, Возглавил Соединённые Штаты во время Гражданской войны"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What did the Emancipation Proclamation do?",
+            "rus": "В чём заключалась Прокламация об эмансипации?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Freed America from Britain",
+                    "rus": "Освободили Америку от Британии"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Freed the slaves, Freed slaves in the Confederacy, Freed slaves in the Confederate states, Freed slaves in most Southern states",
+                    "rus": "Освободили рабов, Освободили рабов в Конфедерации, Освободили рабов в штатах Конфедерации, Освободили рабов в большинстве южных штатов"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Allowed women to vote",
+                    "rus": "Разрешили женщинам голосовать"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What did Susan B. Anthony do?",
+            "rus": "Чем занималась Сьюзен Б. Энтони?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Fought for women’s rights, fought for civil rights",
+                    "rus": "Боролась за права женщин, боролась за гражданские права"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Designed the U.S. flag",
+                    "rus": "Создала флаг США"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Was the first woman to vote",
+                    "rus": "Была первой женщиной, получившей право голоса"
+                }
+            }
+        ]
+    }
+]

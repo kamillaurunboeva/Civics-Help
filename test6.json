@@ -1,0 +1,302 @@
+[
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Name one war fought by the United States in the 1900s.",
+            "rus": "Назовите одну из войн, в которой участвовали Соединённые Штаты в XX веке."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "World War I, World War II, Korean War, Vietnam War, (Persian) Gulf War",
+                    "rus": "Первая мировая война, Вторая мировая война, Корейская война, Вьетнамская война, Война в Персидском заливе"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "War of 1812",
+                    "rus": "Война 1812 года"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Civil War",
+                    "rus": "Гражданская война"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Who was President during World War I?",
+            "rus": "Кто был президентом США во время Первой мировой войны?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "(Abraham) Lincoln",
+                    "rus": "(Авраам) Линкольн"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "John F. Kennedy",
+                    "rus": "Джон Ф. Кеннеди"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "(Woodrow) Wilson",
+                    "rus": "(Вудро) Вильсон"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Who was President during the Great Depression and World War II?",
+            "rus": "Кто был президентом США во время Великой депрессии и Второй мировой войны?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "(Thomas) Jefferson",
+                    "rus": "(Томас) Джефферсон"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "(Franklin) Roosevelt",
+                    "rus": "(Франклин) Рузвельт"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Henry Ford",
+                    "rus": "Генри Форд"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Who did the United States fight in World War II?",
+            "rus": "С кем воевали Соединённые Штаты во Второй мировой войне?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Japan, Germany, and Italy",
+                    "rus": "С Японией, Германией и Италией"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Russia, France and Germany",
+                    "rus": "С Россией, Францией и Германией"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "France, China and Russia",
+                    "rus": "С Францией, Китаем и Россией"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Before he was President, Eisenhower was a general. What war was he in?",
+            "rus": "До того как стать президентом, Эйзенхауэр был генералом. В какой войне он участвовал?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "World War I",
+                    "rus": "В Первой мировой войне"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The Civil War",
+                    "rus": "В Гражданской войне"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "World War II",
+                    "rus": "Во Второй мировой войне"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "During the Cold War, what was the main concern of the United States?",
+            "rus": "Во время 'холодной войны' что больше всего беспокоило США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Europe",
+                    "rus": "Европа"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Communism",
+                    "rus": "Коммунизм"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Canadian migration",
+                    "rus": "Канадская миграция"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "What movement tried to end racial discrimination?",
+            "rus": "Какое движение боролось за прекращение расовой дискриминации?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Communism",
+                    "rus": "Коммунизм"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Civil rights (movement)",
+                    "rus": "Движение за гражданские права"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Civil War",
+                    "rus": "Гражданская война"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What did Martin Luther King, Jr. do?",
+            "rus": "Чем занимался Мартин Лютер Кинг?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Fought against communism",
+                    "rus": "Боролся с коммунизмом"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Freed the slaves",
+                    "rus": "Освободил рабов"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Fought for civil rights, Worked for equality for all Americans",
+                    "rus": "Боролся за гражданские права, Добивался равенства для всех американцев"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What major event happened on September 11, 2001, in the United States?",
+            "rus": "Какое важное событие произошло 11 сентября 2001 года в США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Terrorists attacked the United States.",
+                    "rus": "Террористы атаковали США."
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "The United States declared war",
+                    "rus": "Соединенные Штаты объявили войну"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Stock Market lost a lot of money",
+                    "rus": "Фондовый рынок потерял много денег"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Name one American Indian tribe in the United States.",
+            "rus": "Назовите одно из племён американских индейцев в США."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "American Indians",
+                    "rus": "Американские индейцы"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Cherokee, Navajo, Sioux, Chippewa, Choctaw, Pueblo, Apache, Iroquois, Creek, Blackfeet, Seminole, Cheyenne, Arawak, Shawnee, Mohegan, Huron, Oneida, Lakota, Crow, Teton, Hopi, Inuit",
+                    "rus": "Чероки, Навахо, Сиу, Чиппева, Чоктау, Пуэбло, Апачи, Ирокезы, Крики, Блэкфут, Семинолы, Шайены, Аравак, Шауни, Мохеганы, Гуроны, Онейда, Лакота, Кроу, Тетон, Хопи, Инуиты"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Natives",
+                    "rus": "Туземцы"
+                }
+            }
+        ]
+    }
+]
