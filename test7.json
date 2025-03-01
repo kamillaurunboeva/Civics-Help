@@ -1,0 +1,242 @@
+[
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Name one of the two longest rivers in the United States.",
+            "rus": "Назовите одну из двух самых длинных рек в США."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Amazon (River)",
+                    "rus": "Амазонка (река)"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Columbia (River)",
+                    "rus": "Колумбия (река)"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Missouri (River), Mississippi (River)",
+                    "rus": "Миссури (река), Миссисипи (река)"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What ocean is on the West Coast of the United States?",
+            "rus": "Какой океан находится на западном побережье США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Pacific (Ocean)",
+                    "rus": "Тихий (океан)"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Atlantic (Ocean)",
+                    "rus": "Атлантический (океан)"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Eastern (Ocean)",
+                    "rus": "Восточный (океан)"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What ocean is on the East Coast of the United States?",
+            "rus": "Какой океан находится на восточном побережье США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Pacific (Ocean)",
+                    "rus": "Тихий (океан)"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Eastern (Ocean)",
+                    "rus": "Восточный (океан)"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Atlantic (Ocean)",
+                    "rus": "Атлантический (океан)"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Name one U.S. territory.",
+            "rus": "Назовите одну из территорий США."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Cuba",
+                    "rus": "Куба"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Puerto Rico, U.S. Virgin Islands, American Samoa, Northern Mariana Islands, Guam",
+                    "rus": "Пуэрто-Рико, Виргинские острова США, Американское Самоа, Северные Марианские острова, Гуам"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Hawaii",
+                    "rus": "Гавайи"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Name one state that borders Canada.",
+            "rus": "Назовите один штат, граничащий с Канадой."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Oregon",
+                    "rus": "Орегон"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "California",
+                    "rus": "Калифорния"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Maine, New Hampshire, Vermont, New York, Pennsylvania, Ohio, Michigan, Minnesota, North Dakota, Montana, Idaho, Washington, Alaska",
+                    "rus": "Мэн, Нью-Гэмпшир, Вермонт, Нью-Йорк, Пенсильвания, Огайо, Мичиган, Миннесота, Северная Дакота, Монтана, Айдахо, Вашингтон, Аляска"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Name one state that borders Mexico.",
+            "rus": "Назовите один штат, граничащий с Мексикой."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "California, Arizona, New Mexico, Texas",
+                    "rus": "Калифорния, Аризона, Нью-Мексико, Техас"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Idaho",
+                    "rus": "Айдахо"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Colorado",
+                    "rus": "Колорадо"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "What is the capital of the United States?",
+            "rus": "Назовите столицу Соединённых Штатов."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Washington, D.C.",
+                    "rus": "Вашингтон, округ Колумбия"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "New York",
+                    "rus": "Нью-Йорк"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Los Angeles",
+                    "rus": "Лос-Анджелес"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 2,
+        "question": {
+            "eng": "Where is the Statue of Liberty?",
+            "rus": "Где находится Статуя Свободы?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "California",
+                    "rus": "Калифорния"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "New York (Harbor), Liberty Island. [Also acceptable are New Jersey, near New York City, and on the Hudson (River).]",
+                    "rus": "Нью-Йорк (гавань), остров Свободы. [Также допустимы Нью-Джерси, близ Нью-Йорка и на Гудзоне (река).]"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Rhode Island",
+                    "rus": "Род-Айленд"
+                }
+            }
+        ]
+    }
+]

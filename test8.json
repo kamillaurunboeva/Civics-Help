@@ -1,0 +1,92 @@
+[
+    {
+        "answer": 3,
+        "question": {
+            "eng": "Why does the flag have 13 stripes?",
+            "rus": "Почему на флаге США 13 полос?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Because the stripes represent George Washington's lucky number",
+                    "rus": "Потому что полосы представляют собой счастливое число Джорджа Вашингтона"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Because 13 people wrote the Declaration of Independence",
+                    "rus": "Потому что 13 человек написали Декларацию независимости"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "Because there were 13 original colonies, because the stripes represent the original colonies",
+                    "rus": "Потому что в США было 13 колоний, количество полос соответствует количеству колоний"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Why does the flag have 50 stars?",
+            "rus": "Почему на флаге 50 звёзд?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Because there is one star for each state, because there are 50 states",
+                    "rus": "Потому что на каждый штат приходится по одной звезде, потому что существует 50 штатов"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "As each star represents a state and a protectorate",
+                    "rus": "Поскольку каждая звезда представляет штат и протекторат"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "As the United States was 50 years old when the flag was created",
+                    "rus": "Поскольку на момент создания флага Соединённым Штатам было 50 лет"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 3,
+        "question": {
+            "eng": "What is the name of the national anthem?",
+            "rus": "Как называется национальный гимн США?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "Stars and Stripes",
+                    "rus": "Звёзды и полосы"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "Old Glory",
+                    "rus": "Старая слава"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "The Star-Spangled Banner",
+                    "rus": "Знамя, усыпанное звёздами"
+                }
+            }
+        ]
+    }
+]
