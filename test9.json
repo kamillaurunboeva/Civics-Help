@@ -1,0 +1,62 @@
+[
+    {
+        "answer": 2,
+        "question": {
+            "eng": "When do we celebrate Independence Day?",
+            "rus": "Когда мы празднуем День независимости?"
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "July 14",
+                    "rus": "14 июля"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "July 4",
+                    "rus": "4 июля"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "May 4",
+                    "rus": "4 мая"
+                }
+            }
+        ]
+    },
+    {
+        "answer": 1,
+        "question": {
+            "eng": "Name two national U.S. holidays.",
+            "rus": "Назовите два национальных праздника США."
+        },
+        "answers": [
+            {
+                "num": 1,
+                "text": {
+                    "eng": "New Year’s Day, Martin Luther King, Jr. Day, Presidents’ Day, Memorial Day, Juneteenth, Independence Day, Labor Day, Columbus Day, Veterans Day, Thanksgiving, Christmas",
+                    "rus": "Новый год, День Мартина Лютера Кинга, День президентов, День памяти, День свободы (Juneteenth), День независимости, День труда, День Колумба, День ветеранов, День благодарения, Рождество"
+                }
+            },
+            {
+                "num": 2,
+                "text": {
+                    "eng": "May Day",
+                    "rus": "Первомай"
+                }
+            },
+            {
+                "num": 3,
+                "text": {
+                    "eng": "New Year's Eve",
+                    "rus": "Канун Нового года"
+                }
+            }
+        ]
+    }
+]
