@@ -9,18 +9,21 @@ import SwiftUI
 
 struct RepresentativeDetailView: View {
     let representative: Representative
-    
+
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                if let url = URL(string: representative.photoUrl),
-                   !representative.photoUrl.isEmpty {
+                if let photoUrl = representative.photoUrl,
+                   !photoUrl.isEmpty,
+                   let url = URL(string: photoUrl) {
                     AsyncImage(url: url) { image in
                         image
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                     } placeholder: {
                         Image(systemName: "person.circle.fill")
+                            .resizable()
+                            .foregroundColor(.gray)
                     }
                     .frame(width: 200, height: 200)
                     .clipShape(Circle())
@@ -31,22 +34,20 @@ struct RepresentativeDetailView: View {
                         .frame(width: 200, height: 200)
                         .foregroundColor(.gray)
                 }
-                
+
                 VStack(spacing: 10) {
                     Text(representative.name)
                         .font(.title)
                         .bold()
-                    
+
                     Text(representative.position)
                         .font(.title2)
-                    
+
                     Text(representative.party)
                         .font(.headline)
                         .foregroundColor(representative.party == "Democratic" ? .blue : .red)
                 }
-                
-                // Add more details and contact information here
-                
+
                 Spacer()
             }
             .padding()
@@ -54,11 +55,13 @@ struct RepresentativeDetailView: View {
         .navigationTitle("Representative Details")
     }
 }
-    #Preview {
-        RepresentativeDetailView(representative: Representative(
-            name: "Sample Name",
-            position: "Sample Position",
-            party: "Democratic",
-            photoUrl: ""
-        ))
-    }
+
+#Preview {
+    RepresentativeDetailView(representative: Representative(
+        name: "",
+        position: "",
+        party: "",
+        photoUrl: nil 
+    ))
+
+}
