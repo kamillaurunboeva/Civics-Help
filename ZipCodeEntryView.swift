@@ -4,19 +4,18 @@
 //
 //  Created by Kamilla Urunbaeva on 2/11/25.
 //
-
 import SwiftUI
 
 struct ZipCodeEntryView: View {
     @State private var zipCode: String = ""
     @State private var showRepresentativeView = false
-    
+
     var body: some View {
         VStack {
             Text("Enter Your Zip Code")
                 .font(.title)
                 .padding()
-            
+
             TextField("Zip Code", text: $zipCode)
                 .keyboardType(.numberPad)
                 .padding()
@@ -24,12 +23,11 @@ struct ZipCodeEntryView: View {
                 .background(Color.gray.opacity(0.2))
                 .cornerRadius(10)
                 .padding()
-            
+
             Button(action: {
                 if zipCode.count == 5 && Int(zipCode) != nil {
                     showRepresentativeView = true
                 } else {
-                    // Show an alert or error message
                     print("Invalid zip code")
                 }
             }) {
@@ -42,11 +40,10 @@ struct ZipCodeEntryView: View {
                     .cornerRadius(10)
             }
             .padding()
-            
         }
         .padding()
         .navigationDestination(isPresented: $showRepresentativeView) {
-                RepresentativeListView(zipCode: zipCode)
+            RepresentativeListView(zipCode: zipCode)
         }
     }
 }
