@@ -12,4 +12,5 @@ struct Representative: Identifiable {
     let name: String
     let position: String
     let party: String
+    let photoUrl: String?
 }
