@@ -90,6 +90,7 @@ struct CivicsTestView: View {
                             selectedAnswer: $selectedAnswer,
                             correctAnswer: questions[currentIndex].answer,
                             isRussian: selectedLanguage == "Russian"
+                            correctCount: $correctCount
                         )
                         .transition(.move(edge: .trailing))
                         .animation(.easeInOut, value: currentIndex)
@@ -202,7 +203,8 @@ struct QuestionCardView: View {
     @Binding var selectedAnswer: Int?
     var correctAnswer: Int
     var isRussian: Bool
-
+    @Binding var correctCount: Int
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Text(isRussian ? question.question.rus : question.question.eng)
@@ -213,8 +215,11 @@ struct QuestionCardView: View {
             ForEach(question.answers, id: \..num) { answer in
                 Button(action: {
                     if selectedAnswer == nil {
-                        selectedAnswer = answer.num
-                    }
+                        selectedAnswer = answer.num 
+                        if answer.num == question.answer {
+                           correctCount += 1
+                        }
+                     }
                 }) {
                     Text(isRussian ? answer.text.rus : answer.text.eng)
                         .padding()
