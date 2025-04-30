@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct CivicsTestView: View {
+    @Environment(\.dismiss) private var dismiss
+    @EnvironmentObject var starred: StarredQuestions
+
+    
     @State private var questions: [Question] = []
     @State private var currentIndex = 0
     @State private var selectedAnswer: Int? = nil
@@ -246,5 +250,5 @@ struct QuestionCardView: View {
 }
 
 #Preview {
-    CivicsTestView()
+  CivicsTestView().environmentObject(StarredQuestions())
 }
