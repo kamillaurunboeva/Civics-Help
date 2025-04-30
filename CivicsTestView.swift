@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CivicsTestView: View {
     @Environment(\.dismiss) private var dismiss
-    @EnvironmentObject var starred: StarredQuestions
+    @EnvironmentObject var starred: StarredQuestions // <-- Added environment object
 
     
     @State private var questions: [Question] = []
@@ -19,7 +19,7 @@ struct CivicsTestView: View {
     @State private var timeElapsed = 0
     @State private var showResults = false
     @State private var selectedLanguage = "English"
-    @State private var starredQuestions: Set<Int> = []
+    @State private var starredQuestions: Set<Question> = []
     @State private var showLanguageMenu = false
 
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -60,8 +60,23 @@ struct CivicsTestView: View {
                         Text("Civics Help")
                             .font(.title)
                             .bold()
-
+                        
                         HStack {
+                            // Backward Button
+                            Button(action: {
+                                dismiss()
+                            }) {
+                                Image(systemName: "chevron.backward")
+                                    .font(.title2)
+                                    .padding(8)
+//                                    .background(Color.white)
+                                    .foregroundColor(.blue)
+//                                    .clipShape(Circle())
+                            }
+
+                            Spacer()
+
+                            // Language Menu
                             Menu {
                                 Button("English", action: { selectedLanguage = "English" })
                                 Button("Русский", action: { selectedLanguage = "Russian" })
@@ -69,10 +84,13 @@ struct CivicsTestView: View {
                                 Label(selectedLanguage, systemImage: "globe")
                                     .font(.subheadline)
                             }
+
                             Spacer()
-//                            Timer
-                            Text(" ⏱ \(formatTime(timeElapsed))")
+
+                            // Timer
+                            Text("\(formatTime(timeElapsed))")
                                 .font(.subheadline)
+                                .padding(.trailing, 4)
                         }
                         .padding(.horizontal)
 
@@ -89,7 +107,7 @@ struct CivicsTestView: View {
                             question: questions[currentIndex],
                             selectedAnswer: $selectedAnswer,
                             correctAnswer: questions[currentIndex].answer,
-                            isRussian: selectedLanguage == "Russian"
+                            isRussian: selectedLanguage == "Russian",
                             correctCount: $correctCount
                         )
                         .transition(.move(edge: .trailing))
@@ -111,7 +129,7 @@ struct CivicsTestView: View {
 
 //                            Star to star question
                             Button(action: toggleStarred) {
-                                Image(systemName: starredQuestions.contains(currentIndex) ? "star.fill" : "star")
+                                Image(systemName: starredQuestions.contains(questions[currentIndex]) ? "star.fill" : "star")
                                     .font(.title)
                                     .foregroundColor(.yellow)
                             }
@@ -173,23 +191,34 @@ struct CivicsTestView: View {
     }
 
     private func toggleStarred() {
-        if starredQuestions.contains(currentIndex) {
-            starredQuestions.remove(currentIndex)
+        let currentQuestion = questions[currentIndex]
+        
+        if starredQuestions.contains(currentQuestion) {
+            starredQuestions.remove(currentQuestion)
         } else {
-            starredQuestions.insert(currentIndex)
+            starredQuestions.insert(currentQuestion)
         }
+        
         saveStarred()
     }
 
+
     private func saveStarred() {
-        UserDefaults.standard.set(Array(starredQuestions), forKey: "StarredQuestions")
+        let ids = starredQuestions.map { $0.id.uuidString }
+        UserDefaults.standard.set(ids, forKey: "StarredQuestions")
     }
 
+
     private func loadStarred() {
-        if let saved = UserDefaults.standard.array(forKey: "StarredQuestions") as? [Int] {
-            starredQuestions = Set(saved)
+        let allQuestions = QuestionLoader.loadQuestions()
+
+        if let savedIds = UserDefaults.standard.array(forKey: "StarredQuestions") as? [String] {
+            let savedUUIDs = savedIds.compactMap { UUID(uuidString: $0) }
+
+            starredQuestions = Set(allQuestions.filter { savedUUIDs.contains($0.id) })
         }
     }
+
 
     private func formatTime(_ seconds: Int) -> String {
         let minutes = seconds / 60
@@ -198,13 +227,13 @@ struct CivicsTestView: View {
     }
 }
 
-struct QuestionCardView: View {
-    var question: Question
-    @Binding var selectedAnswer: Int?
-    var correctAnswer: Int
-    var isRussian: Bool
-    @Binding var correctCount: Int
-    
+    struct QuestionCardView: View {
+        var question: Question
+        @Binding var selectedAnswer: Int?
+        var correctAnswer: Int
+        var isRussian: Bool
+        @Binding var correctCount: Int
+
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Text(isRussian ? question.question.rus : question.question.eng)
@@ -215,12 +244,12 @@ struct QuestionCardView: View {
             ForEach(question.answers, id: \..num) { answer in
                 Button(action: {
                     if selectedAnswer == nil {
-                        selectedAnswer = answer.num 
-                        if answer.num == question.answer {
-                           correctCount += 1
-                        }
-                     }
-                }) {
+                        selectedAnswer = answer.num
+                       
+                    }
+                })
+                
+                {
                     Text(isRussian ? answer.text.rus : answer.text.eng)
                         .padding()
                         .frame(maxWidth: .infinity)
@@ -255,5 +284,5 @@ struct QuestionCardView: View {
 }
 
 #Preview {
-  CivicsTestView().environmentObject(StarredQuestions())
+    CivicsTestView().environmentObject(StarredQuestions())
 }
