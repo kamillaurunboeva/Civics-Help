@@ -245,6 +245,8 @@ struct CivicsTestView: View {
                 Button(action: {
                     if selectedAnswer == nil {
                         selectedAnswer = answer.num
+                        answer.num == question.answer {
+                            correctCount += 1
                        
                     }
                 })
