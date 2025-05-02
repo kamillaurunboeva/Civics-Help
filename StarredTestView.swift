@@ -5,8 +5,6 @@
 //  Created by Kamilla Urunbaeva on 2/1/25.
 //
 
-import SwiftUI
-
 struct StarredTestView: View {
     @EnvironmentObject var starred: StarredQuestions
 
@@ -129,44 +127,50 @@ struct StarredTestView: View {
             resetTest()
         }
     }
-
+    
+    
     private func resetTest() {
-        questions = starred.questions.shuffled().prefix(10).map { $0 }
-        currentIndex = 0
-        selectedAnswer = nil
-        correctCount = 0
-        timeElapsed = 0
-        showResults = false
-    }
+            let allQuestions = QuestionLoader.loadQuestions()
+            starred.load(from: allQuestions)
+            questions = Array(starred.questions).shuffled().prefix(10).map { $0 }
 
-    private func buttonColor(_ answer: Answer) -> Color {
-        guard let selected = selectedAnswer else { return Color.gray.opacity(0.2) }
-        if answer.num == selected {
-            return answer.num == questions[currentIndex].answer ? Color.green.opacity(0.5) : Color.red.opacity(0.5)
-        } else if answer.num == questions[currentIndex].answer {
-            return Color.green.opacity(0.3)
-        }
-        return Color.gray.opacity(0.2)
-    }
-
-    private func goToNext() {
-        if currentIndex + 1 < questions.count {
-            currentIndex += 1
+            currentIndex = 0
             selectedAnswer = nil
-        } else {
-            showResults = true
+            correctCount = 0
+            timeElapsed = 0
+            showResults = false
         }
-    }
 
-    private func goToPrevious() {
-        if currentIndex > 0 {
-            currentIndex -= 1
-            selectedAnswer = nil
+        private func buttonColor(_ answer: Answer) -> Color {
+            guard let selected = selectedAnswer else { return Color.gray.opacity(0.2) }
+            if answer.num == selected {
+                return answer.num == questions[currentIndex].answer ? Color.green.opacity(0.5) : Color.red.opacity(0.5)
+            } else if answer.num == questions[currentIndex].answer {
+                return Color.green.opacity(0.3)
+            }
+            return Color.gray.opacity(0.2)
+        }
+
+        private func goToNext() {
+            if currentIndex + 1 < questions.count {
+                currentIndex += 1
+                selectedAnswer = nil
+            } else {
+                showResults = true
+            }
+        }
+
+        private func goToPrevious() {
+            if currentIndex > 0 {
+                currentIndex -= 1
+                selectedAnswer = nil
+            }
         }
     }
-}
 
 #Preview {
     StarredTestView()
         .environmentObject(StarredQuestions())
 }
+
+   
