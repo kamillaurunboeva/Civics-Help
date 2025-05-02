@@ -34,6 +34,20 @@ struct CivicsTestView: View {
                         .onAppear(perform: loadQuestions)
                 } else if showResults {
                     VStack(spacing: 20) {
+
+                        HStack {
+                            Button(action:  {
+                                dismiss()
+                            }) {
+                                Image(systemName: "chevron.backward")
+                                    .font(.title2)
+                                    .foregroundColor(.blue)
+                            }
+                            Spacer()
+                        }
+                        .padding(.horizontal)
+
+                        
                         Text("✅ Test Completed")
                             .font(.largeTitle)
                             .bold()
