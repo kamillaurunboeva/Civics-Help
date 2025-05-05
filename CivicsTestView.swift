@@ -204,16 +204,22 @@ struct CivicsTestView: View {
         }
     }
 
-    private func toggleStarred() {
-        let currentQuestion = questions[currentIndex]
+   private func toggleStarred() {
+        let question = questions[currentIndex]
+        let idString = question.id.uuidString
         
-        if starredQuestions.contains(currentQuestion) {
-            starredQuestions.remove(currentQuestion)
+        var savedIds = UserDefaults.standard.stringArray(forKey: "StarredQuestions") ?? []
+        
+        if savedIds.contains(idString) {
+            savedIds.removeAll { $0 == idString }
         } else {
-            starredQuestions.insert(currentQuestion)
+            savedIds.append(idString)
         }
         
-        saveStarred()
+        UserDefaults.standard.set(savedIds, forKey: "StarredQuestions")
+        
+        let allQuestions = QuestionLoader.loadQuestions()
+        starred.load(from: allQuestions)
     }
 
 
