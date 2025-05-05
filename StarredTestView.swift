@@ -132,7 +132,7 @@ struct StarredTestView: View {
     private func resetTest() {
             let allQuestions = QuestionLoader.loadQuestions()
             starred.load(from: allQuestions)
-            questions = Array(starred.questions).shuffled().prefix(10).map { $0 }
+            questions = starred.questions.shuffled().prefix(10).map { $0 }
 
             currentIndex = 0
             selectedAnswer = nil
