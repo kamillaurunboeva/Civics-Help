@@ -9,58 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
-
+    
     var body: some View {
-        NavigationStack {
-         
-                ZStack{
-                    Color(.systemGray6)
-                    .ignoresSafeArea()
-                    
-                    VStack {
-                        Text("Civics Help")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .frame(maxHeight: .infinity, alignment: .top)
-                            .padding(.top, 0)
-                        
-                        
-                        LazyVGrid(columns: columns, spacing: 15) {
-                            ForEach(QuizCategory.allCases, id: \.self) { category in
-                                NavigationLink(destination: DetailView(category: category)) {
-                                    CategoryCard(category: category)
-                                }
-                            }
-                        }
-                        .padding()
-                        
-                        Spacer()
-                        
-                        //                    Button(action: {
-                        //                        print("Next button tapped")
-                        //                    }) {
-                        //                        Text("NEXT")
-                        //                            .font(.headline)
-                        //                            .frame(maxWidth: .infinity)
-                        //                            .padding()
-                        //                            .background(Color.red)
-                        //                            .foregroundColor(.white)
-                        //                            .cornerRadius(10)
-                        //                    }
-                        
-                            .padding()
-                        
-                        
-                    }
-                    .padding()
-                    .frame(maxHeight: .infinity, alignment: .top)
-            }
-                
-        
+        TabView {
+            MenuView()
+                .tabItem {
+                    Label("Menu", systemImage: "house")
+                }
+            
+            ZipCodeEntryView() // <- Correct SwiftUI View here
+                .tabItem {
+                    Label("Representative", systemImage: "person.2.fill")
+                }
+            
+            //            SettingsView()
+            //                .tabItem {
+            //                    Label("Settings", systemImage: "gear")
+            //                }
         }
-
+        
     }
 }
 #Preview {
     ContentView()
+        .environmentObject(StarredQuestions())
 }
