@@ -13,23 +13,15 @@ struct Question: Codable, Identifiable, Hashable {
     let question: LocalizedText
     let answers: [Answer]
 
+    
+    
     enum CodingKeys: String, CodingKey {
-        case answer, question, answers
+        case id, answer, question, answers
     }
 
-    init(id: UUID = UUID(), answer: Int, question: LocalizedText, answers: [Answer]) {
-        self.id = id
-        self.answer = answer
-        self.question = question
-        self.answers = answers
-       }
-    
-    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
-        // UUID is not in JSON, so generate a new one each time
-        self.id = UUID()
+        self.id = try container.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
         self.answer = try container.decode(Int.self, forKey: .answer)
         self.question = try container.decode(LocalizedText.self, forKey: .question)
         self.answers = try container.decode([Answer].self, forKey: .answers)
