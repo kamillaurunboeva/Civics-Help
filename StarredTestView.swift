@@ -128,6 +128,12 @@ struct StarredTestView: View {
                             }
                             .disabled(currentIndex == 0)
 
+                             Button(action: toggleStarred) {
+                                Image(systemName: isStarred(questions[currentIndex]) ? "star.fill" : "star")
+                                    .font(.title2)
+                                    .foregroundColor(.yellow)
+                                                   }
+
                             Button(action: goToNext) {
                                 Image(systemName: "chevron.right")
                                     .font(.title2)
@@ -187,7 +193,37 @@ struct StarredTestView: View {
             selectedAnswer = nil
         }
     }
-}
+
+    private func toggleStarred() {
+        let question = questions[currentIndex]
+        let idString = question.id.uuidString
+        var savedIds = UserDefaults.standard.stringArray(forKey: "StarredQuestions") ?? []
+
+        if savedIds.contains(idString) {
+            savedIds.removeAll { $0 == idString }
+        } else {
+            savedIds.append(idString)
+        }
+        
+        UserDefaults.standard.set(savedIds, forKey: "StarredQuestions")
+
+               // Update starred questions and refresh list
+               let allQuestions = QuestionLoader.loadQuestions()
+               starred.load(from: allQuestions)
+               questions = starred.questions.shuffled().prefix(10).map { $0 }
+
+               if currentIndex >= questions.count {
+                   currentIndex = max(0, questions.count - 1)
+               }
+
+               selectedAnswer = nil
+           }
+    
+    private func isStarred(_ question: Question) -> Bool {
+           let savedIds = UserDefaults.standard.stringArray(forKey: "StarredQuestions") ?? []
+           return savedIds.contains(question.id.uuidString)
+       }
+   }
 
 #Preview {
     StarredTestView()
