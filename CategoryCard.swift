@@ -20,9 +20,9 @@ struct CategoryCard: View {
                 .font(.headline)
                 .foregroundColor(.white)
             
-            Text("\(category.quizCount) Quizzes")
-                .font(.subheadline)
-                .foregroundColor(.white.opacity(0.8))
+            // Text("\(category.quizCount) Quizzes")
+            //     .font(.subheadline)
+            //     .foregroundColor(.white.opacity(0.8))
         }
         .frame(width: 150, height: 150)
         .background(category == .civicsTest ? Color.red : Color.blue)
