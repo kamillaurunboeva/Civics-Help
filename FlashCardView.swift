@@ -8,10 +8,34 @@
 import SwiftUI
 
 struct FlashCardView: View {
+    var question: Question
+    var isRussian: Bool = false
+    @State private var isFlipped = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(isFlipped ? correctAnswerText() : (isRussian ? question.question.rus : question.question.eng))
+                .font(.title2)
+                .bold()
+                .multilineTextAlignment(.center)
+                .padding()
+                .animation(.easeInOut, value: isFlipped)
+                .onTapGesture {
+                    withAnimation {
+                        isFlipped.toggle()
+                    }
+                }
+        }
+    }
+
+    private func correctAnswerText() -> String {
+        if let correct = question.answers.first(where: { $0.num == question.answer }) {
+            return isRussian ? correct.text.rus : correct.text.eng
+        }
+        return "Answer not available"
     }
 }
+
 
 #Preview {
     FlashCardView()
