@@ -8,10 +8,35 @@
 import SwiftUI
 
 struct AllFlashCards: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let questions = QuestionLoader.loadQuestions()
+        @State private var isRussian = false
+
+        var body: some View {
+            VStack {
+                Picker("Language", selection: $isRussian) {
+                    Text("🇺🇸 English").tag(false)
+                    Text("🇷🇺 Русский").tag(true)
+                }
+                .pickerStyle(SegmentedPickerStyle())
+                .padding()
+
+                ScrollView {
+                    LazyVStack(spacing: 20) {
+                        ForEach(questions.prefix(100), id: \.id) { question in
+                            FlashCardView(question: question, isRussian: isRussian)
+                                .padding()
+                                .background(Color.white)
+                                .cornerRadius(12)
+                                .shadow(radius: 3)
+                        }
+                    }
+                }
+            }
+            .padding()
+            .background(Color(.systemGray6))
+            .navigationTitle("FlashCards")
+        }
     }
-}
 
 #Preview {
     AllFlashCards()
