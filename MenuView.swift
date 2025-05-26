@@ -51,6 +51,8 @@ struct MenuView: View {
                 ZipCodeEntryView()
             case .studyMaterial:
                 StudyMaterialView()
+            case .flashCards: 
+                AllFlashCards()
             default:
                 DetailView(category: category)
             }
