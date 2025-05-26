@@ -37,6 +37,11 @@ struct FlashCardView: View {
 }
 
 
-#Preview {
-    FlashCardView()
-}
+ #Preview {
+        let questions = QuestionLoader.loadQuestions()
+        if let first = questions.first {
+            FlashCardView(question: first)
+        } else {
+            Text("No questions found")
+        }
+    }
