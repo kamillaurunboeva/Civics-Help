@@ -13,31 +13,47 @@ struct FlashCardView: View {
     @State private var isFlipped = false
 
     var body: some View {
-        VStack {
-            Text(isFlipped ? correctAnswerText() : (isRussian ? question.question.rus : question.question.eng))
-                .font(.title2)
-                .bold()
-                .multilineTextAlignment(.center)
-                .padding()
-                .animation(.easeInOut, value: isFlipped)
-                .onTapGesture {
-                    withAnimation {
-                        isFlipped.toggle()
-                    }
+        ZStack {
+            RoundedRectangle(cornerRadius: 25)
+                .fill(Color.indigo)
+                .frame(height: 300)
+                .shadow(radius: 5)
+            
+            VStack {
+                if isFlipped {
+                    Text(correctAnswerText())
+                        .font(.title2)
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.white)
+                        .padding()
+                } else {
+                    Text(isRussian ? question.question.rus : question.question.eng)
+                        .font(.title2)
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.white)
+                        .bold()
+                        .padding()
                 }
+                
+            }
         }
+        .onTapGesture {
+            withAnimation {
+                isFlipped.toggle()
+            }
+        }
+        .padding()
     }
 
     private func correctAnswerText() -> String {
-        if let correct = question.answers.first(where: { $0.num == question.answer }) {
-            return isRussian ? correct.text.rus : correct.text.eng
-        }
-        return "Answer not available"
-    }
-}
+           guard let correct = question.answers.first(where: { $0.num == question.answer }) else {
+               return "Answer not available"
+           }
+           return isRussian ? correct.text.rus : correct.text.eng
+       }
+   }
 
-
- #Preview {
+    #Preview {
         let questions = QuestionLoader.loadQuestions()
         if let first = questions.first {
             FlashCardView(question: first)
@@ -45,3 +61,4 @@ struct FlashCardView: View {
             Text("No questions found")
         }
     }
+
