@@ -31,9 +31,7 @@ struct AllFlashCards: View {
 
                         // Top Bar
                         HStack {
-
-                            Spacer()
-
+                                
                             Menu {
                                 Button("English", action: { selectedLanguage = "English" })
                                 Button("Русский", action: { selectedLanguage = "Russian" })
