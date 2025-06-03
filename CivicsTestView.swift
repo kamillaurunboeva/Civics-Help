@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CivicsTestView: View {
     @Environment(\.dismiss) private var dismiss
-    @EnvironmentObject var starred: StarredQuestions // <-- Added environment object
+    @EnvironmentObject var starred: StarredQuestions // Added environment object
 
     
     @State private var questions: [Question] = []
@@ -19,7 +19,7 @@ struct CivicsTestView: View {
     @State private var timeElapsed = 0
     @State private var showResults = false
     @State private var selectedLanguage = "English"
-    @State private var starredQuestions: Set<Question> = []
+//    @State private var starredQuestions: Set<Question> = []
     @State private var showLanguageMenu = false
 
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -34,20 +34,7 @@ struct CivicsTestView: View {
                         .onAppear(perform: loadQuestions)
                 } else if showResults {
                     VStack(spacing: 20) {
-
-                        HStack {
-                            Button(action:  {
-                                dismiss()
-                            }) {
-                                Image(systemName: "chevron.backward")
-                                    .font(.title2)
-                                    .foregroundColor(.blue)
-                            }
-                            Spacer()
-                        }
-                        .padding(.horizontal)
-
-                        
+                    
                         Text("✅ Test Completed")
                             .font(.largeTitle)
                             .bold()
@@ -67,6 +54,7 @@ struct CivicsTestView: View {
                         .background(Color.green)
                         .foregroundColor(.white)
                         .cornerRadius(12)
+                        
                     }
                     .padding()
                 } else {
@@ -76,19 +64,7 @@ struct CivicsTestView: View {
                             .bold()
                         
                         HStack {
-                            // Backward Button
-                            Button(action: {
-                                dismiss()
-                            }) {
-                                Image(systemName: "chevron.backward")
-                                    .font(.title2)
-                                    .padding(8)
-//                                    .background(Color.white)
-                                    .foregroundColor(.blue)
-//                                    .clipShape(Circle())
-                            }
-
-                            Spacer()
+                            
 
                             // Language Menu
                             Menu {
@@ -143,7 +119,8 @@ struct CivicsTestView: View {
 
 //                            Star to star question
                             Button(action: toggleStarred) {
-                                Image(systemName: starredQuestions.contains(questions[currentIndex]) ? "star.fill" : "star")
+                                Image(systemName: starred.questions.contains(questions[currentIndex]) ? "star.fill" : "star")
+
                                     .font(.title)
                                     .foregroundColor(.yellow)
                             }
@@ -166,7 +143,6 @@ struct CivicsTestView: View {
                 }
             }
         }
-        .navigationBarBackButtonHidden(true)
         .onReceive(timer) { _ in
             if !showResults {
                 timeElapsed += 1
@@ -204,7 +180,7 @@ struct CivicsTestView: View {
         }
     }
 
-   private func toggleStarred() {
+    private func toggleStarred() {
         let question = questions[currentIndex]
         let idString = question.id.uuidString
         
@@ -224,7 +200,7 @@ struct CivicsTestView: View {
 
 
     private func saveStarred() {
-        let ids = starredQuestions.map { $0.id.uuidString }
+        let ids = starred.questions.map { $0.id.uuidString }
         UserDefaults.standard.set(ids, forKey: "StarredQuestions")
     }
 
@@ -235,7 +211,7 @@ struct CivicsTestView: View {
         if let savedIds = UserDefaults.standard.array(forKey: "StarredQuestions") as? [String] {
             let savedUUIDs = savedIds.compactMap { UUID(uuidString: $0) }
 
-            starredQuestions = Set(allQuestions.filter { savedUUIDs.contains($0.id) })
+            starred.questions = allQuestions.filter { savedUUIDs.contains($0.id) }
         }
     }
 
@@ -265,8 +241,9 @@ struct CivicsTestView: View {
                 Button(action: {
                     if selectedAnswer == nil {
                         selectedAnswer = answer.num
-                        answer.num == question.answer {
+                        if answer.num == question.answer {
                             correctCount += 1
+                        }
                        
                     }
                 })
