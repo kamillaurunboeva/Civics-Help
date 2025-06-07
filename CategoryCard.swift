@@ -21,7 +21,7 @@ struct CategoryCard: View {
                 .foregroundColor(.white)
     
         }
-        .frame(width: 150, height: 150)
+        .frame(width: 160, height: 160)
         .background(category == .civicsTest ? Color.red : Color.blue)
         .cornerRadius(20)
         .shadow(radius: 5)
