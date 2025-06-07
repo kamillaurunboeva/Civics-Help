@@ -21,9 +21,11 @@ struct MenuView: View {
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)
-                            .padding(.top, 40)
+                            .padding(.top, 0)
 
-                        LazyVGrid(columns: columns, spacing: 15) {
+                        Spacer()
+
+                        LazyVGrid(columns: columns, spacing: 20) {
                             ForEach(QuizCategory.allCases, id: \.self) { category in
                                 NavigationLink(destination: destinationView(for: category)) {
                                     CategoryCard(category: category)
