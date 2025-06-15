@@ -9,7 +9,13 @@ import SwiftUI
 struct ZipCodeEntryView: View {
     @State private var zipCode: String = ""
     @State private var showRepresentativeView = false
-
+    
+    var isValidZipCode: Bool {
+        let trimmed = zipCode.trimmingCharacters(in: .whitespaces)
+        return trimmed.count == 5 && Int(trimmed) != nil
+    }
+    
+    
     var body: some View {
         VStack {
             Text("Enter Your Zip Code")
@@ -25,7 +31,7 @@ struct ZipCodeEntryView: View {
                 .padding()
 
             Button(action: {
-                if zipCode.count == 5 && Int(zipCode) != nil {
+                if isValidZipCode {
                     showRepresentativeView = true
                 } else {
                     print("Invalid zip code")
@@ -39,11 +45,12 @@ struct ZipCodeEntryView: View {
                     .background(Color.cyan)
                     .cornerRadius(10)
             }
+            .disabled(!isValidZipCode)
             .padding()
         }
         .padding()
         .navigationDestination(isPresented: $showRepresentativeView) {
-            RepresentativeListView(zipCode: zipCode)
+                    RepresentativeListView(zipCode: zipCode.trimmingCharacters(in: .whitespaces))
         }
     }
 }
