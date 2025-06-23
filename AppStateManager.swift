@@ -9,20 +9,18 @@ import Foundation
 import Combine
 
 class AppStateManager: ObservableObject {
-    @Published var selectedState: String? {
+    @Published var userZipCode: String {
         didSet {
-            if let state = selectedState {
-                UserDefaults.standard.set(state, forKey: "SelectedState")
-            }
+            UserDefaults.standard.set(userZipCode, forKey: "userZipCode")
         }
     }
 
     init() {
-        self.selectedState = UserDefaults.standard.string(forKey: "SelectedState")
+        self.userZipCode = UserDefaults.standard.string(forKey: "userZipCode") ?? ""
     }
 
-    func resetStateSelection() {
-        UserDefaults.standard.removeObject(forKey: "SelectedState")
-        selectedState = nil
+    func resetZipCode() {
+        userZipCode = ""
+        UserDefaults.standard.removeObject(forKey: "userZipCode")
     }
 }
