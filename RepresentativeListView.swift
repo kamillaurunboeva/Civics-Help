@@ -7,109 +7,58 @@
 
 import SwiftUI
 
-mport SwiftUI
-
 struct RepresentativeListView: View {
-    let zipCode: String
+    @EnvironmentObject var appState: AppStateManager
     @State private var representatives: [Representative] = []
     @State private var isLoading = true
-    @State private var error: Error?
-    @State private var showError = false
 
     var body: some View {
-        VStack {
+        NavigationStack {
             if isLoading {
-                ProgressView("Loading representatives...")
+                ProgressView("Loading...")
             } else {
-                List(representatives) { representative in
-                    NavigationLink(destination: RepresentativeDetailView(representative: representative)) {
-                        RepresentativeRowView(representative: representative)
+                List(representatives) { rep in
+                    VStack(alignment: .leading) {
+                        Text(rep.name).bold()
+                        Text(rep.position)
+                        Text(rep.party).foregroundColor(.gray)
+                    }
+                }
+                .navigationTitle("Your Representatives")
+                .toolbar {
+                    Button("Change ZIP") {
+                        appState.resetZipCode()
                     }
                 }
             }
-        }
-        .navigationTitle("Your Representatives")
-        .alert("Error", isPresented: $showError, presenting: error) { _ in
-            Button("OK") {}
-        } message: { error in
-            Text(error.localizedDescription)
         }
         .task {
             await loadRepresentatives()
         }
+        
+
     }
 
     private func loadRepresentatives() async {
-        isLoading = true
-        do {
-            representatives = try await CivicAPIService.shared.fetchRepresentatives(for: zipCode)
-        } catch {
-            self.error = error
-            self.showError = true
+        guard !appState.userZipCode.isEmpty else {
+            print("ZIP not set")
+            return
         }
+
+        do {
+            self.representatives = try await CivicAPIService.shared.fetchRepresentatives(for: appState.userZipCode)
+        } catch {
+            print("Failed to fetch reps: \(error)")
+        }
+
         isLoading = false
     }
+
 }
 
-struct RepresentativeRowView: View {
-    let representative: Representative
-
-    var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
-                RepresentativeImageView(photoURL: representative.photoUrl!)
-
-                VStack(alignment: .leading) {
-                    Text(representative.name)
-                        .font(.headline)
-                    Text(representative.position)
-                        .font(.subheadline)
-                    Text(representative.party)
-                        .font(.caption)
-                        .foregroundColor(representative.party == "Democratic" ? .blue : .red)
-                }
-            }
-        }
-        .padding(.vertical)
-    }
-}
-
-struct RepresentativeImageView: View {
-    let photoURL: String
-
-    var body: some View {
-        Group {
-            if let url = URL(string: photoURL), !photoURL.isEmpty {
-                AsyncImage(url: url) { phase in
-                    switch phase {
-                    case .success(let image):
-                        image
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                    case .failure, .empty:
-                        Image(systemName: "person.circle.fill")
-                            .resizable()
-                            .foregroundColor(.gray)
-                    @unknown default:
-                        Image(systemName: "person.circle.fill")
-                            .resizable()
-                            .foregroundColor(.gray)
-                    }
-                }
-            } else {
-                Image(systemName: "person.circle.fill")
-                    .resizable()
-                    .foregroundColor(.gray)
-            }
-        }
-        .frame(width: 50, height: 50)
-        .clipShape(Circle())
-    }
-}
 
 #Preview {
-    NavigationView {
-        RepresentativeListView(zipCode: "32811")
-    }
+        RepresentativeListView()
+        
 }
 
