@@ -1,0 +1,852 @@
+[
+    {
+        "state": "Alabama",
+        "governor": "Kay Ivey",
+        "party": "Republican",
+        "start_of_term": 2017,
+        "capital": "Montgomery",
+        "senators": [
+            {
+                "name": "Britt, Katie Boyd",
+                "party": "Republican"
+            },
+            {
+                "name": "Tuberville, Tommy",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Alaska",
+        "governor": "Mike Dunleavy",
+        "party": "Republican",
+        "start_of_term": 2018,
+        "capital": "Juneau",
+        "senators": [
+            {
+                "name": "Murkowski, Lisa",
+                "party": "Republican"
+            },
+            {
+                "name": "Sullivan, Dan",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Arizona",
+        "governor": "Katie Hobbs",
+        "party": "Democratic",
+        "start_of_term": 2023,
+        "capital": "Phoenix",
+        "senators": [
+            {
+                "name": "Gallego, Ruben",
+                "party": "Democratic"
+            },
+            {
+                "name": "Kelly, Mark",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Arkansas",
+        "governor": "Sarah Huckabee Sanders",
+        "party": "Republican",
+        "start_of_term": 2023,
+        "capital": "Little Rock",
+        "senators": [
+            {
+                "name": "Boozman, John",
+                "party": "Republican"
+            },
+            {
+                "name": "Cotton, Tom",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "California",
+        "governor": "Gavin Newsom",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Sacramento",
+        "senators": [
+            {
+                "name": "Padilla, Alex",
+                "party": "Democratic"
+            },
+            {
+                "name": "Schiff, Adam B.",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Colorado",
+        "governor": "Jared Polis",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Denver",
+        "senators": [
+            {
+                "name": "Bennet, Michael F.",
+                "party": "Democratic"
+            },
+            {
+                "name": "Hickenlooper, John W.",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Connecticut",
+        "governor": "Ned Lamont",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Hartford",
+        "senators": [
+            {
+                "name": "Blumenthal, Richard",
+                "party": "Democratic"
+            },
+            {
+                "name": "Murphy, Christopher",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Delaware",
+        "governor": "Matt Meyer",
+        "party": "Democratic",
+        "start_of_term": 2025,
+        "capital": "Dover",
+        "senators": [
+            {
+                "name": "Blunt Rochester, Lisa",
+                "party": "Democratic"
+            },
+            {
+                "name": "Coons, Christopher A.",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Florida",
+        "governor": "Ron DeSantis",
+        "party": "Republican",
+        "start_of_term": 2019,
+        "capital": "Tallahassee",
+        "senators": [
+            {
+                "name": "Moody, Ashley",
+                "party": "Republican"
+            },
+            {
+                "name": "Scott, Rick",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Georgia",
+        "governor": "Brian Kemp",
+        "party": "Republican",
+        "start_of_term": 2019,
+        "capital": "Atlanta",
+        "senators": [
+            {
+                "name": "Ossoff, Jon",
+                "party": "Democratic"
+            },
+            {
+                "name": "Warnock, Raphael G.",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Hawaii",
+        "governor": "Josh Green",
+        "party": "Democratic",
+        "start_of_term": 2022,
+        "capital": "Honolulu",
+        "senators": [
+            {
+                "name": "Hirono, Mazie K.",
+                "party": "Democratic"
+            },
+            {
+                "name": "Schatz, Brian",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Idaho",
+        "governor": "Brad Little",
+        "party": "Republican",
+        "start_of_term": 2019,
+        "capital": "Boise",
+        "senators": [
+            {
+                "name": "Crapo, Mike",
+                "party": "Republican"
+            },
+            {
+                "name": "Risch, James E.",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Illinois",
+        "governor": "J.B. Pritzker",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Springfield",
+        "senators": [
+            {
+                "name": "Duckworth, Tammy",
+                "party": "Democratic"
+            },
+            {
+                "name": "Durbin, Richard J.",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Indiana",
+        "governor": "Mike Braun",
+        "party": "Republican",
+        "start_of_term": 2025,
+        "capital": "Indianapolis",
+        "senators": [
+            {
+                "name": "Banks, Jim",
+                "party": "Republican"
+            },
+            {
+                "name": "Young, Todd",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Iowa",
+        "governor": "Kim Reynolds",
+        "party": "Republican",
+        "start_of_term": 2017,
+        "capital": "Des Moines",
+        "senators": [
+            {
+                "name": "Ernst, Joni",
+                "party": "Republican"
+            },
+            {
+                "name": "Grassley, Chuck",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Kansas",
+        "governor": "Laura Kelly",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Topeka",
+        "senators": [
+            {
+                "name": "Marshall, Roger",
+                "party": "Republican"
+            },
+            {
+                "name": "Moran, Jerry",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Kentucky",
+        "governor": "Andy Beshear",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Frankfort",
+        "senators": [
+            {
+                "name": "McConnell, Mitch",
+                "party": "Republican"
+            },
+            {
+                "name": "Paul, Rand",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Louisiana",
+        "governor": "Jeff Landry",
+        "party": "Republican",
+        "start_of_term": 2024,
+        "capital": "Baton Rouge",
+        "senators": [
+            {
+                "name": "Cassidy, Bill",
+                "party": "Republican"
+            },
+            {
+                "name": "Kennedy, John",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Maine",
+        "governor": "Janet Mills",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Augusta",
+        "senators": [
+            {
+                "name": "Collins, Susan M.",
+                "party": "Republican"
+            },
+            {
+                "name": "King, Angus S., Jr.",
+                "party": "Independent"
+            }
+        ]
+    },
+    {
+        "state": "Maryland",
+        "governor": "Wes Moore",
+        "party": "Democratic",
+        "start_of_term": 2023,
+        "capital": "Annapolis",
+        "senators": [
+            {
+                "name": "Alsobrooks, Angela D.",
+                "party": "Democratic"
+            },
+            {
+                "name": "Van Hollen, Chris",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Massachusetts",
+        "governor": "Maura Healey",
+        "party": "Democratic",
+        "start_of_term": 2023,
+        "capital": "Boston",
+        "senators": [
+            {
+                "name": "Markey, Edward J.",
+                "party": "Democratic"
+            },
+            {
+                "name": "Warren, Elizabeth",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Michigan",
+        "governor": "Gretchen Whitmer",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Lansing",
+        "senators": [
+            {
+                "name": "Peters, Gary C.",
+                "party": "Democratic"
+            },
+            {
+                "name": "Slotkin, Elissa",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Minnesota",
+        "governor": "Tim Walz",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Saint Paul",
+        "senators": [
+            {
+                "name": "Klobuchar, Amy",
+                "party": "Democratic"
+            },
+            {
+                "name": "Smith, Tina",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Mississippi",
+        "governor": "Tate Reeves",
+        "party": "Republican",
+        "start_of_term": 2020,
+        "capital": "Jackson",
+        "senators": [
+            {
+                "name": "Hyde-Smith, Cindy",
+                "party": "Republican"
+            },
+            {
+                "name": "Wicker, Roger F.",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Missouri",
+        "governor": "Mike Kehoe",
+        "party": "Republican",
+        "start_of_term": 2025,
+        "capital": "Jefferson City",
+        "senators": [
+            {
+                "name": "Hawley, Josh",
+                "party": "Republican"
+            },
+            {
+                "name": "Schmitt, Eric",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Montana",
+        "governor": "Greg Gianforte",
+        "party": "Republican",
+        "start_of_term": 2021,
+        "capital": "Helena",
+        "senators": [
+            {
+                "name": "Daines, Steve",
+                "party": "Republican"
+            },
+            {
+                "name": "Sheehy, Tim",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Nebraska",
+        "governor": "Jim Pillen",
+        "party": "Republican",
+        "start_of_term": 2023,
+        "capital": "Lincoln",
+        "senators": [
+            {
+                "name": "Fischer, Deb",
+                "party": "Republican"
+            },
+            {
+                "name": "Ricketts, Pete",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Nevada",
+        "governor": "Joe Lombardo",
+        "party": "Republican",
+        "start_of_term": 2023,
+        "capital": "Carson City",
+        "senators": [
+            {
+                "name": "Cortez Masto, Catherine",
+                "party": "Democratic"
+            },
+            {
+                "name": "Rosen, Jacky",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "New Hampshire",
+        "governor": "Kelly Ayotte",
+        "party": "Republican",
+        "start_of_term": 2025,
+        "capital": "Concord",
+        "senators": [
+            {
+                "name": "Hassan, Margaret Wood",
+                "party": "Democratic"
+            },
+            {
+                "name": "Shaheen, Jeanne",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "New Jersey",
+        "governor": "Phil Murphy",
+        "party": "Democratic",
+        "start_of_term": 2018,
+        "capital": "Trenton",
+        "senators": [
+            {
+                "name": "Booker, Cory A.",
+                "party": "Democratic"
+            },
+            {
+                "name": "Kim, Andy",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "New Mexico",
+        "governor": "Michelle Lujan Grisham",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Santa Fe",
+        "senators": [
+            {
+                "name": "Heinrich, Martin",
+                "party": "Democratic"
+            },
+            {
+                "name": "Luj\u00e1n, Ben Ray",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "New York",
+        "governor": "Kathy Hochul",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Albany",
+        "senators": [
+            {
+                "name": "Gillibrand, Kirsten E.",
+                "party": "Democratic"
+            },
+            {
+                "name": "Schumer, Charles E.",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "North Carolina",
+        "governor": "Josh Stein",
+        "party": "Democratic",
+        "start_of_term": 2025,
+        "capital": "Raleigh",
+        "senators": [
+            {
+                "name": "Budd, Ted",
+                "party": "Republican"
+            },
+            {
+                "name": "Tillis, Thom",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "North Dakota",
+        "governor": "Kelly Armstrong",
+        "party": "Republican",
+        "start_of_term": 2024,
+        "capital": "Bismarck",
+        "senators": [
+            {
+                "name": "Cramer, Kevin",
+                "party": "Republican"
+            },
+            {
+                "name": "Hoeven, John",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Ohio",
+        "governor": "Mike DeWine",
+        "party": "Republican",
+        "start_of_term": 2019,
+        "capital": "Columbus",
+        "senators": [
+            {
+                "name": "Husted, Jon",
+                "party": "Republican"
+            },
+            {
+                "name": "Moreno, Bernie",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Oklahoma",
+        "governor": "Kevin Stitt",
+        "party": "Republican",
+        "start_of_term": 2019,
+        "capital": "Oklahoma City",
+        "senators": [
+            {
+                "name": "Lankford, James",
+                "party": "Republican"
+            },
+            {
+                "name": "Mullin, Markwayne",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Oregon",
+        "governor": "Tina Kotek",
+        "party": "Democratic",
+        "start_of_term": 2023,
+        "capital": "Salem",
+        "senators": [
+            {
+                "name": "Merkley, Jeff",
+                "party": "Democratic"
+            },
+            {
+                "name": "Wyden, Ron",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Pennsylvania",
+        "governor": "Josh Shapiro",
+        "party": "Democratic",
+        "start_of_term": 2023,
+        "capital": "Harrisburg",
+        "senators": [
+            {
+                "name": "Fetterman, John",
+                "party": "Democratic"
+            },
+            {
+                "name": "McCormick, David",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Rhode Island",
+        "governor": "Dan McKee",
+        "party": "Democratic",
+        "start_of_term": 2021,
+        "capital": "Providence",
+        "senators": [
+            {
+                "name": "Reed, Jack",
+                "party": "Democratic"
+            },
+            {
+                "name": "Whitehouse, Sheldon",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "South Carolina",
+        "governor": "Henry McMaster",
+        "party": "Republican",
+        "start_of_term": 2017,
+        "capital": "Columbia",
+        "senators": [
+            {
+                "name": "Graham, Lindsey",
+                "party": "Republican"
+            },
+            {
+                "name": "Scott, Tim",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "South Dakota",
+        "governor": "Larry Rhoden",
+        "party": "Republican",
+        "start_of_term": 2025,
+        "capital": "Pierre",
+        "senators": [
+            {
+                "name": "Rounds, Mike",
+                "party": "Republican"
+            },
+            {
+                "name": "Thune, John",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Tennessee",
+        "governor": "Bill Lee",
+        "party": "Republican",
+        "start_of_term": 2019,
+        "capital": "Nashville",
+        "senators": [
+            {
+                "name": "Blackburn, Marsha",
+                "party": "Republican"
+            },
+            {
+                "name": "Hagerty, Bill",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Texas",
+        "governor": "Greg Abbott",
+        "party": "Republican",
+        "start_of_term": 2015,
+        "capital": "Austin",
+        "senators": [
+            {
+                "name": "Cornyn, John",
+                "party": "Republican"
+            },
+            {
+                "name": "Cruz, Ted",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Utah",
+        "governor": "Spencer Cox",
+        "party": "Republican",
+        "start_of_term": 2021,
+        "capital": "Salt Lake City",
+        "senators": [
+            {
+                "name": "Curtis, John R.",
+                "party": "Republican"
+            },
+            {
+                "name": "Lee, Mike",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Vermont",
+        "governor": "Phil Scott",
+        "party": "Republican",
+        "start_of_term": 2017,
+        "capital": "Montpelier",
+        "senators": [
+            {
+                "name": "Sanders, Bernard",
+                "party": "Independent"
+            },
+            {
+                "name": "Welch, Peter",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Virginia",
+        "governor": "Glenn Youngkin",
+        "party": "Republican",
+        "start_of_term": 2022,
+        "capital": "Richmond",
+        "senators": [
+            {
+                "name": "Kaine, Tim",
+                "party": "Democratic"
+            },
+            {
+                "name": "Warner, Mark R.",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "Washington",
+        "governor": "Bob Ferguson",
+        "party": "Democratic",
+        "start_of_term": 2025,
+        "capital": "Olympia",
+        "senators": [
+            {
+                "name": "Cantwell, Maria",
+                "party": "Democratic"
+            },
+            {
+                "name": "Murray, Patty",
+                "party": "Democratic"
+            }
+        ]
+    },
+    {
+        "state": "West Virginia",
+        "governor": "Patrick Morrisey",
+        "party": "Republican",
+        "start_of_term": 2025,
+        "capital": "Charleston",
+        "senators": [
+            {
+                "name": "Capito, Shelley Moore",
+                "party": "Republican"
+            },
+            {
+                "name": "Justice, James C.",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Wisconsin",
+        "governor": "Tony Evers",
+        "party": "Democratic",
+        "start_of_term": 2019,
+        "capital": "Madison",
+        "senators": [
+            {
+                "name": "Baldwin, Tammy",
+                "party": "Democratic"
+            },
+            {
+                "name": "Johnson, Ron",
+                "party": "Republican"
+            }
+        ]
+    },
+    {
+        "state": "Wyoming",
+        "governor": "Mark Gordon",
+        "party": "Republican",
+        "start_of_term": 2019,
+        "capital": "Cheyenne",
+        "senators": [
+            {
+                "name": "Barrasso, John",
+                "party": "Republican"
+            },
+            {
+                "name": "Lummis, Cynthia M.",
+                "party": "Republican"
+            }
+        ]
+    }
+]
